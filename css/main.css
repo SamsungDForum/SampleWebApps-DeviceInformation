@@ -1,0 +1,69 @@
+.main {
+    padding: 0;
+}
+
+.info-view {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.info-view .info-inner-container {
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.info-view .info-inner-container span,
+.info-view .info-inner-container div span {
+    margin: 10px 0;
+}
+
+.info-view .info-inner-container div span {
+    display: block;
+    text-align: center;
+}
+
+.info-view .subbuttons-system {
+    position: absolute;
+    top: 750px;
+    left: 0;
+    width: 100%;
+    height: 11vh;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(215, 201, 201);
+    background-color: #fff;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info-view .subbuttons-system.hidden {
+    display: none;
+}
+
+.info-view .system-info-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.info-view .product-info-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.info-view .tv-info-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
